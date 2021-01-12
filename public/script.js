@@ -54,3 +54,7 @@ function addVideoStream(video, stream) {
   })
   videoGrid.append(video)
 }
+
+function leave() {
+  window.open('', '_parent', '').close();
+}
